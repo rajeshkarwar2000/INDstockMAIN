@@ -22,7 +22,7 @@ jobs:
       - name: Add Capacitor and Android
         run: |
           npm init -y
-          npm i @capacitor/core@7 @capacitor/cli@7 @capacitor/android@7
+          npm i @capacitor/core@7 @capacitor/cli@7 @capacitor/android@7 @capacitor/clipboard@7
           npx cap init "IND Stock AI" com.rajesh.indstockai --web-dir=www
           npx cap add android
           npx cap sync android
